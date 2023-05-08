@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>Home</title>
+</head>
+<body>
+    <script>
+        function dreamEnter(){
+            document.body.style.backgroundImage = "url('dream.png')";
+            
+        }
+        function dreamExit(){
+            document.body.style.backgroundImage = 'none';
+        }
+    </script>
+    <div id="head">
+        <h1>
+            Welcome!
+        </h1>
+        <br>
+        <h2>
+            My websites
+        </h2>
+        <br>
+        <a href="lime.html" class="links" id="dream" onmouseover="dreamEnter(this)" onmouseleave="dreamExit(this)">
+            Dream
+        </a>
+    </div>
+    <footer>
+        Made with ❤️ by HarmOnGitHub (fag)
+    </footer>
+</body>
+</html>
